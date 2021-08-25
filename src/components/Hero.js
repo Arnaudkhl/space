@@ -61,7 +61,7 @@ position:absolute;
 width:100%;
 height:100%;
 max-width:350px;
-max-height:250px;
+max-height:270px;
 
 `;
 
@@ -146,7 +146,7 @@ const Hero = () => {
             whileTap={{scale:0.9}}
             drag={true}
             dragConstraints={{ left:0, right:400,top:0,bottom:50}}
-            initial={{opacity:0,x: 100}}
+            initial={{opacity:0,x: -600}}
             animate={{opacity:1,x:0,transition:{duration:1}}}
              />
            <Image src={p3} alt='planet'
@@ -159,8 +159,8 @@ const Hero = () => {
            <Image src={p4} alt='planet'
            whileTap={{scale:0.9}} 
            drag={true}
-           dragConstraints={{ left:0, right:4,top:0,bottom:10}}
-           initial={{opacity:0,x: 100}}
+           dragConstraints={{ left:0, right:0,top:0,bottom:10}}
+           initial={{opacity:0,x: -200}}
            animate={{opacity:1,x:0,transition:{duration:1}}}
             />
          
