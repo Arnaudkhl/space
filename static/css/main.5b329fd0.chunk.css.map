@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,SACE,8DACF,CACA,KACE,QACF","file":"main.5b329fd0.chunk.css","sourcesContent":[".backimg{\n  background-image: url(./images/space1.jpg);\n}\nbody{\n  margin: 0;\n}"]}
